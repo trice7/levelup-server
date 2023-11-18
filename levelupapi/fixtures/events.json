@@ -1,0 +1,35 @@
+[
+  {
+      "model": "levelupapi.event",
+      "pk": 1,
+      "fields": {
+          "game": 2,
+          "description": "An event celebrating the release of Final Fantasy 16",
+          "date": "2023-11-16",
+          "time": "09:00:00",
+          "organizer": 1
+      }
+  },
+  {
+      "model": "levelupapi.event",
+      "pk": 2,
+      "fields": {
+          "game": 1,
+          "description": "Monopoly time",
+          "date": "2023-11-16",
+          "time": "09:00:00",
+          "organizer": 1
+      }
+  },
+  {
+      "model": "levelupapi.event",
+      "pk": 3,
+      "fields": {
+          "game": 1,
+          "description": "Monopoly world tournament, held in Tokyo, Japan.",
+          "date": "2023-12-25",
+          "time": "12:30:00",
+          "organizer": 1
+      }
+  }
+]
