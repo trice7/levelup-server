@@ -45,7 +45,7 @@ class EventView(ViewSet):
           Response -- JSON serialized event instance
       """
       game = Game.objects.get(pk=request.data["gameId"])
-      organizer = Gamer.objects.get(pk=request.data["userId"])
+      organizer = Gamer.objects.get(uid=request.data["userId"])
       
       event = Event.objects.create(
         description = request.data["description"],
