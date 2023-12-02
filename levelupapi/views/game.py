@@ -72,7 +72,7 @@ class GameView(ViewSet):
 
     game_type = GameType.objects.get(pk=request.data["gameType"])
     game.game_type = game_type
-    gamer = Gamer.objects.get(pk=request.data['userId'])
+    gamer = Gamer.objects.get(uid=request.data['userId'])
     game.gamer = gamer
     game.save()
 
